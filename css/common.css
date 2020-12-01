@@ -1,0 +1,29 @@
+html{
+    background-size: 100vw 100vh;
+    }
+body{
+    background-size: 100vw ;
+    background-image: url(../img/bg4.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.tabContainer{
+    text-align: left;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.hidden{
+    display: none;
+}
+
+.mobBg {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top:0;
+        left: 0;
+        z-index: -60;
+    
+    }
